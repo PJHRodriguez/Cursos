@@ -4,5 +4,5 @@ Este repositorio contiene ejercicios y proyectos que he realizado para aprender 
 
 ## Lenguajes y Tecnologías
 
-- **JavaScript**: Fundamentos, manipulación del DOM, ES6+.
+- **JavaScript**: Fundamentos, manipulación del DOM.
 - **React**: Desarrollo de interfaces, hooks, manejo de estado.
