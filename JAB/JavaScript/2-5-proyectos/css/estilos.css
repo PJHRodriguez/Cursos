@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+section img{
+  width:100%;
+}
+section{
+  border:1px solid gray;
+  padding:20px;
+  width: 300px;
+}
+
+div{
+  font-family: 'Montserrat', sans-serif;
+  padding:8px;
+  font-size:1.5em;
+}
+.resultado{
+  font-size:1.2em;
+
+}
+.nota{
+  font-size:2.2em;
+}
+.aprobado, .bien{  
+  background-color:green;
+}
+.suspendido, .mal{
+  background-color:red;
+}
+

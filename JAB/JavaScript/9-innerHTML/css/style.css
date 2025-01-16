@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+button{
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: 1.3em;
+}

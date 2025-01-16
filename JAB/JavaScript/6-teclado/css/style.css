@@ -1,0 +1,9 @@
+body{
+  background-color:black;
+  color: wheat;
+}
+
+img{
+  position:absolute;
+  bottom:0;
+}

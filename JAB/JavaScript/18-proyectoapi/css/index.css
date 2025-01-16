@@ -1,0 +1,19 @@
+section {
+  display: flex;
+}
+.caja {
+  width: 100px;
+  margin-right: 100px;
+}
+.imagen {
+  width: 400px;
+  text-align: center;
+}
+.linea {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
