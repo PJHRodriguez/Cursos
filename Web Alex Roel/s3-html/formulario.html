@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="post">
+        <label for="numero">Numero:</label>    
+        <input type="number"name="numero" id="numero" placeholder="Ingrese su numero"><!--Campo para enviar un numero-->
+        <br><br>
+        <label for="nombre">Nombre:</label>    
+        <input type="text"name="nombre" id="nombre" placeholder="Ingrese su nombre"><!--Campo para tipo texto-->
+        <br><br>
+        <label for="email">Email:</label>    
+        <input type="email"name="email" id="email"><!--Campo para tipo correo-->
+        <br><br>
+        <label for="pass">Contraseña:</label>    
+        <input type="password"name="pass" id="pass"><!--Campo para contraseñar-->
+        <br><br>
+        <input type="submit" value="Enviar" name="enviar"><!--Envia la informacion de los campos anteriores a una base de datos-->
+    </form>
+    <!--
+        method = metodo de envio de informacion GET muestra la informacion en la URL || Post no muestra la informacion
+        type = tipo de caracteres o informacion que se permitira
+        name = Informacion adicional para saber que debe de ingresar en el campo
+        placeholder = muestra un texto en el campo que se elimina al dar clic sobre el campo
+        value = valor por defecto que aparece en el campo
+        readonly = Solo servida para modo lectura no se permitira escribir
+        disabled = Deshabilita el campo
+        size = tamaño del campo
+        required = Campo requerido 
+        autofocus = Agrega el puntero a ese campo para empezar a escribir
+        
+    -->
+</body>
+</html>

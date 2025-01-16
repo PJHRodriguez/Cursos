@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "s12-Node Backend/blog-personal/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - s12-Node Backend/blog-personal",
+			"detail": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+		}
+	]
+}
