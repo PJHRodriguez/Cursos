@@ -1,0 +1,712 @@
+.fondo{
+  background-color: #3b3b3b;
+}
+
+.ActividadUno{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.ActividadUno div{
+  border-radius: 15px;
+  background-color: #f18202;
+  width: 30%;
+  font-size: 2em;
+  border: 1px solid black;
+  text-align: center;
+  padding: 12px;
+  margin: 20px;
+}
+.ActividadUno img{
+  width: 100%;
+}
+.Eventos img{
+  width: 400px;
+}
+
+.Eventos .caja{
+  user-select: none;
+}
+
+
+.HtmlSeis{
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+.HtmlSeis input{
+  color: orangered;
+  width: 100px;
+  line-height: 100px;
+  margin: 6px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid darkred;
+  outline: none;
+  font-size: 4rem;
+}
+
+.HtmlSeis button{
+  font-size: 2rem;
+  padding: 5px 15px;
+  color: darkred;
+  border-radius: 5px;
+}
+
+.ActividadD .rojo{color:red;}
+.ActividadD .verde{ color: green;}
+
+.ActividadE input{
+  font-family: 'Montserrat';
+  color:orangered;
+  width: 150px;
+  line-height: 60px;
+  text-align:right;
+  border-radius: 8px;
+  border: 1px dotted darkred;
+  outline: none;
+  font-size:2.5rem;
+}
+.ActividadE label{
+  font-family: 'Montserrat';
+  display: block;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.ActividadF .rey{
+  color:white;
+  padding: 2px 15px 20px;
+  width: 47%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+
+}
+.ActividadF img{
+  width: 100%;
+  
+}
+
+.ActividadF{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.ActividadG{
+  margin: 20px;
+}
+.ActividadG .actividad{
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.ActividadG .rey{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.ActividadG h1{
+  width: 100%;
+  text-align: center;
+}
+.ActividadG img{
+  width: 100%;
+  margin-top: 10px;
+}
+.ActividadG .numero{
+  font-size: 2em;
+  user-select: none;
+}
+
+.UseContext{
+  display: flex;
+  height: calc(100vh - 40px);
+}
+
+.UseContext .hijo{
+  width: 33.3%;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.colores{
+  display: flex;
+}
+
+ .colores .color{
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.color:nth-child(1){
+  background-color: #4285f4;
+}
+
+.color:nth-child(2){
+  background-color: #ea4335;
+}
+
+.color:nth-child(3){
+  background-color: #fbbc05;
+}
+
+.color:nth-child(4){
+  background-color: #34a853;
+}
+
+.ActividadI img{
+ width: 100%;
+ vertical-align: top;
+
+}
+.ActividadI .idiomas{
+  display: flex;
+  justify-content: center;
+}
+.ActividadI .bandera{
+  width: 75px;
+  margin: 10px;
+}
+.ActividadI .botones{
+  text-align: center;
+}
+.ActividadI .botones button{
+  width: 150px;
+  background-color: white;
+  padding: 5px 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border:  1px dotted black;
+  color: white;
+  background-color: teal;
+  font-size: 1.05em;
+}
+.ActividadI .profesora, .ubicacion{
+  width: 320px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: teal;
+  padding-bottom: 15px;
+  color: white;
+  margin: auto;
+}
+
+.Routing div{
+  font-size: 3em;
+}
+
+.Routing a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.Routing .activado{
+  color:gold;
+  background-color: crimson;
+}
+
+.ActividadJ nav{
+  background-color: silver;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.ActividadJ  a{
+  text-decoration: none;
+  font-size: 1em;
+  padding: 7px 10px 12px;
+  color: black;
+}
+
+.ActividadJ .activo{
+  background-color: black;
+  color: white;
+
+}
+.ActividadJ .reyes{
+  display: flex;
+  flex-wrap:wrap;
+
+}
+.ActividadJ .reyes img{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.ActividadJ .rey{
+  text-align: center;
+  font-size: 3em;
+}
+.DoubleRouter{
+  margin: 0;
+}
+
+.DoubleRouter nav a{
+  text-decoration: none;
+  padding-right: 20px;
+  color: white;
+  font-size: 0.66em;
+}
+
+.DoubleRouter nav{
+  background-color: black;
+}
+
+.ActividadL nav{
+  background-color: black;
+}
+
+.ActividadL a{
+  color: white;
+  font-style: 0.8em;
+  text-decoration: none;
+  padding-right: 30px;
+  
+}
+
+.ActividadL {
+  margin: 0;
+}
+
+.ActividadL nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 16px;
+}
+.ActividadL .active{
+  color: orangered;
+}
+.ActividadL .lista{
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+}
+.ActividadL .destino{
+  border: 1px solid gray;
+  padding: 8px 10px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.ActividadL img{
+  width: 100%;
+  vertical-align: top;
+}
+.ActividadL .nombre{
+  font-size: 0.92em;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ActividadL .situacion{
+  margin: 5px 0 10px;
+  font-size: 0.74em;
+
+  display: -webkit-box;
+  max-width: 100%;
+  height: 24px;
+  line-height: 1;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ActividadL .destino a, .aviso a{
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 2px 12px 4px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.ActividadL .imagenGrande{
+  width: 500px;
+  display: block;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.ActividadL .imagenGrande img{
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.ActividadL .precio{
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ActividadL .flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.ActividadL  .circulo{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+  
+}
+
+.ActividadL  .boton{
+  font-size: 0.9em;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.ActividadL  .contratar{
+  background-color: green;
+}
+
+.ActividadL  .anular{
+  background-color: red;
+}
+
+.ActividadL  .contratar, .anular{
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  
+}
+
+.ActividadL .botonVolver{
+  position: absolute;
+  top:85%;
+  left: 15px;
+  transform: translateZ(-50%);
+  z-index: 2;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+.ActividadL .anularRuta{
+  margin: 0 15px 3px;
+  padding: 5px 10px; 
+}
+.ActividadL .login{
+  padding-top:20px ;
+  width: 520px;
+  height: 180px;
+  border: 6px solid orangered;
+  border-radius: 16px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: orangered;
+}
+
+.ActividadL input{
+  color: orangered;
+  padding: 5px 9px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px dotted orangered;
+  border-radius: 5px 0 0 5px;
+  margin-left: 15px;
+  border-right: none ;
+}
+
+.ActividadL .botonRegistro{
+  background-color: orangered;
+  color: white;
+  font-size: 1.1em;
+  padding: 4px 10px;
+  border: 1px solid orangered;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.forms .pregunta{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.forms .pregunta label{
+  width: 95px;
+}
+
+.forms input{
+  padding: 5px 6px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: 0 0 2px  gray;
+  background-color: #f2f2f2;
+  flex: 1;
+}
+
+.forms .aviso{
+  color:white;
+  background-color: red;
+  margin-bottom: 20px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+
+}
+
+.forms .resumen{
+  color: white;
+  background-color: green;
+  padding: 5px 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.forms input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  appearance: none;
+  margin: 0;
+}
+
+.ActividadM body{
+  font-family: 'Monserrat';
+}
+
+.ActividadM img{
+  width: 100%; 
+  vertical-align: top;
+  object-fit: cover;
+}
+
+.ActividadM .formularioZonas{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.ActividadM .zona{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252525;
+  color: white;
+  padding: 4px 9px 7px;
+}
+
+.ActividadM input{
+  padding: 6px 10px;
+  font-size: 1.2em;
+  border-radius: 4px;
+  outline: none;
+  border-radius: 1px solid gray;
+  box-shadow: 0 0 3px black;
+  background-color: #f1f1f1;
+}
+
+.ActividadM input[type="radio"]{
+  transform: scale(3);
+  margin: 22px 0 20px;
+}
+
+.ActividadM  nav{
+  font-size: 1.6em;
+  padding: 12px 15px;
+
+}
+.ActividadM  input[type="submit"], button{
+  padding: 8px 16px;
+  color: white;
+  font-size: 0.9em;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin: 4px;
+  background-color: #2169f3;
+  border: 0;
+}
+.ActividadM .aviso{
+  font-size: 0.6em;
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.ActividadM .linea, .seccion{
+  display: flex;
+}
+
+.ActividadM .columna1{
+  width: 150px;
+}
+
+.ActividadM .columna2{
+  flex:1;
+}
+.ActividadM  .resumen{
+  width: 30%;
+  border-left: 1px dotted gray;
+  padding-left: 20px;
+}
+.ActividadM form{
+  flex: 1;
+  padding: 0 10px;
+}
+
+.ActividadM .verde{
+  color: green;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+@media only screen and (min-width:680px){
+  .ActividadM .zonas{
+    width: 24.5%;
+  }
+}
+
+@media print{
+  .ActividadM .resumen{
+    border: none;
+    width: 100%;
+    font-size: 2em;
+    display: grid;
+  }
+  .ActividadM .opciones{
+    display: none;
+  }
+  .ActividadM .columna1{
+    width: 400px;
+  }
+  .ActividadM .total{
+    font-size: 1.5em;
+  }
+  .ActividadM .informacion:nth-child(5){
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    grid-row: 2;
+    margin-left:20px;
+  }
+  .ActividadM .informacion img{
+    width: 50%;
+  }
+}
+
+.ActividadN  img{
+  width: 100;
+}
+
+.ActividadN .imagen{
+  margin: 20px auto;
+  width: 160px;
+}
+.ActividadN .palabra{
+  display: flex;
+}
+
+.ActividadN .palo{
+  margin: 3px;
+  border-bottom: 1px solid black;
+  width: 32px;
+  height: 45px;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.ActividadN .botones button{
+  margin: 5px;
+  padding: 5px 0;
+  font-size: 1.3em;
+  background-color: white;
+  border:1px dashed black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 35px;
+  text-align: center;
+  color: black;
+}
+
+.ActividadP img{
+  width: 100%;
+  vertical-align: top;
+}
+
+.ActividadP .cuadros{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ActividadP .cuadro{
+  margin: 4px;
+  border: 1px solid dodgerblue;
+  cursor: pointer;
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ActividadP .atras{
+  position: relative;
+  z-index: -99;
+}
+
+.ActividadP .panel{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ActividadP .texto{
+  padding: 40px;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.8);
+  width: 410px;
+  height: 120px;
+  font-size: 1.8em;
+  position: relative;
+  text-align: center;
+}
+
+.ActividadP button{
+  font-size: 1.3rem;
+  padding: 8px 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 140px;
+  background-color: #2169f3;
+  border-radius: 10px;
+}
