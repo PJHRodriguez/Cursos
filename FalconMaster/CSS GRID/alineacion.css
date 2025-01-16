@@ -1,0 +1,20 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  repeat(3,200px);
+
+    justify-items: stretch; /*modifica los lados*/
+    align-items: stretch; /*modifica hacia arriba/abajo
+    /*  start: alinea la informacion al inicio del div
+        end: alinea la informacion al final del div
+        center: centra la informacion en el div
+        auto: ocupa el mayor espacio disponible
+        stretch: ocupa el mayor espacio disponible */
+
+}
+.contenedor .item{
+    background: burlywood;
+    justify-self: stretch;
+    align-self: stretch;
+}

@@ -1,0 +1,21 @@
+.contenedor{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 100px 200px;
+    
+    grid-auto-rows: 100px;
+    /* Sirve para poder darle un valor default al contenido que no cabe en el grid */
+    grid-auto-flow: dense;
+    /* column,row:Agrega el contenido extra  en forma de columnas o en filas
+       dense: Arega los huecos que queden poniendo contenido debajo que tenga el mismo tamaño de hueco*/
+    grid-auto-columns: 100px;
+}
+.contenedor .span2{
+    grid-column: span 2;
+    background: deeppink;
+}
+.contenedor .span3{
+    grid-column: span 3;
+    background: lightslategrey;
+}

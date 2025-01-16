@@ -1,0 +1,16 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    /*  normal,start: alinea todo el contenido al inicio
+        center: alinea todo el contenido al centro
+        end: alinea todo el contenido al final
+        space-around: divide el espacio disponbile  y deja un poco al inicio y al final
+        space-between: divive el espacio disponible pero quita el espacio entre el inicio y al final
+        space-evenly: pone el mismo espaciado en inicio fin y entre los contenidos*/
+
+}

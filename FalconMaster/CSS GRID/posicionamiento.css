@@ -1,0 +1,27 @@
+.contenedor{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+.contenedor .item{
+    background: rgb(250, 19, 238);
+    /* grid-column-start: 1; */
+    /* El div iniciara desde la posicion 1 de las columnas */
+    /* grid-column-end: 3; */
+    /* El div tomara desde la posicion 1 hasta la posicion final */
+    
+    /* grid-row-start: 1; */
+    /* El div iniciara desde la posicion 2 de las filas */
+    /* grid-row-end: -1; */
+    /* El div tomara desde la posicion 2 hasta la posicion final */
+    /* grid-column: 1 / 4;
+    grid-row: 1 / -1; */
+    /* Forma distinta de hacer lo mismo*/
+    /* grid-area: 1 / 1 / -1 / 2; */
+    /* Inicio de fila / Inicio de columna / Fin de la fila / Fin de la columa*/
+    /* Forma distinta de hacer lo mismo*/
+
+    grid-column: 1/ span 3;
+    /* la palabra span sirve para indicar la filas/columnas que ocupara el contenido o div */
+}

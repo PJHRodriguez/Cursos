@@ -1,0 +1,39 @@
+.contenedor{
+    display: grid;
+    grid-gap : 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "header    header      header"
+                         "sidebar-1 contenido   sidebar-2"
+                         "sidebar-1 widgets     sidebar-2"
+                         "footer    footer      footer";
+    /*Estructura que tendra la pagina*/
+
+}
+.contenedor .header{
+    background: #eff2f3;
+    grid-area: header;
+    /* espeficificamos con grid-area: (palabra clave) que columnas y filas tomara en este caso sera toda la fila 1 */
+    
+}
+.contenedor .sidebar-1{
+    background: #000000;
+    grid-area: sidebar-1;
+    color:#ffffff;
+}
+.contenedor .contenido {
+    background: #d11b1b;
+    grid-area: contenido;
+}
+.contenedor .widgets {
+    background: #409219;
+    grid-area: widgets;
+}
+.contenedor .sidebar-2 {
+    background: #1bbcd1;
+    grid-area: sidebar-2;
+}
+.contenedor .footer {
+    background: #d11baa;
+    grid-area: footer;
+}

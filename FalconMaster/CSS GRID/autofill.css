@@ -1,0 +1,7 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    /* Auto fit permite es rellenar todo el contenedor con todas las columnas que tenemos disponibles */
+    /* Auto fill va a rellenar toda nuestra fila con todas las columnas que  pueda poner dentro y va a crear culumnas implicitas en caso de que se pueda despues cuando no pueda los va a poner en una segunda fila */
+}
